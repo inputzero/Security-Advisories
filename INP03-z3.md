@@ -1,6 +1,6 @@
 ### Summary
 
-z3 (Z3 version 4.13.1 - 64 bit) WCNF parser contains a global buffer overflow vulnerability in the `opt_stream_buffer::parse_token` function. When parsing the "`wcnf`", the function fails to properly check the buffer boundaries, allowing read beyond the allocated memory leading to code execution or denial of service attack.
+z3 (Z3 version 4.13.1 - 64 bit) WCNF parser contains a buffer overflow vulnerability in the `opt_stream_buffer::parse_token` function. When parsing the "`wcnf`", the function fails to properly check the buffer boundaries, allowing read beyond the allocated memory leading to code execution or denial of service attack.
 
 ### Harness 
 
