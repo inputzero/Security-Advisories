@@ -161,4 +161,4 @@ default:
 
 This ensures that if an invalid type somehow makes it through, the output string is properly terminated instead of causing undefined behavior.
 
-**Refernece** - https://github.com/libarchive/libarchive/pull/2704
+**Reference** - https://github.com/libarchive/libarchive/pull/2704
